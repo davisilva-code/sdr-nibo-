@@ -1,0 +1,6 @@
+{
+  "name": "Nibo SDR Intelligence",
+  "description": "AI Sales Copilot and Prospecting Intelligence platform for Nibo Outbound SDRs.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
