@@ -2,7 +2,7 @@ name: Deploy Vite site to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "Principal"]
 
 permissions:
   contents: read
@@ -30,7 +30,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./nibo-sdr-intelligence
-        run: npm ci
+        run: npm install
 
       - name: Build
         working-directory: ./nibo-sdr-intelligence
